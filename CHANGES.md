@@ -1,6 +1,9 @@
 ## Release Notes
 # Changes
 
+## 0.11.4
+* patch: "async" package is production dependency so it is moved to "dependencies" section of package.json file.
+
 ## 0.11.3
 * patch: Fixed issue where parameters of type "string", format "date" or format "date-time", and had a "pattern" JSON schema property, then HTTP requests to the API endpoint would fail with HTTP 400 error "val.match" is not a function.
 
