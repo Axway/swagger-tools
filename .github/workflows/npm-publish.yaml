@@ -1,6 +1,6 @@
 name: Publish to npm
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       tag:
@@ -16,7 +16,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 16
           registry-url: https://registry.npmjs.org
 
       - name: Git checkout
