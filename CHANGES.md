@@ -2,7 +2,7 @@
 # Changes
 
 ## 1.0.0
-* major: Now supports minimum Node.js v16.
+* major: Now supports minimum Node.js v10.16.0.
 * patch: Fixed CVE-2022-24434 by bumping multer.
 
 ## 0.11.5
