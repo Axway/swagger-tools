@@ -317,7 +317,7 @@ describe('Swagger Router Middleware v2.0', function () {
         request(app)
           .get('/api/pets/1')
           .expect(500)
-          .end(helpers.expectContent('Cannot read property \'fake\' of undefined', done));
+          .end(helpers.expectContent('Cannot read properties of undefined (reading \'fake\')', done));
       });
     });
 

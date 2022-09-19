@@ -1,6 +1,10 @@
 ## Release Notes
 # Changes
 
+## 1.0.0
+* major: Now supports minimum Node.js v10.16.0.
+* patch: Fixed CVE-2022-24434 by bumping multer.
+
 ## 0.11.5
 * patch: Fixed issue where a client request for a parameterized path that matched the express parameterized path exactly, would result in `TypeError: Cannot read property '1' of undefined`. E.g. if the path is `/api/:typeId`, and the client requests "/api/:typeId".
 
