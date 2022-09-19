@@ -24,7 +24,7 @@
     "swagger"
   ],
   "engines": {
-    "node": ">= 16"
+    "node": ">= 10.16.0"
   },
   "files": [
     "index.js",
