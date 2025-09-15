@@ -26,9 +26,9 @@ jobs:
       - name: Update dist-tag
         run: npm dist-tag add @axway/swagger-tools@${PKG_VERSION} latest
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_2025 }}
 
       - name: Remove 'next' dist-tag
         run: npm dist-tag rm @axway/swagger-tools next
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_2025 }}
