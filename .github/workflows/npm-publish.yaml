@@ -35,6 +35,11 @@ jobs:
       - name: Build
         run: npm test
 
+      - name: Tag repo with $DIST_TAG
+        run: |
+          git tag $DIST_TAG
+          git push origin $DIST_TAG
+
       - name: Publish to npm with dist-tag next
         run: npm publish --access public --tag ${{ github.event.inputs.tag }}
         env:
