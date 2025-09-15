@@ -1,6 +1,9 @@
 ## Release Notes
 # Changes
 
+## 1.1.0
+* patch: Fixed several CVEs by bumping multer.
+
 ## 1.0.0
 * major: Now supports minimum Node.js v10.16.0.
 * patch: Fixed CVE-2022-24434 by bumping multer.
